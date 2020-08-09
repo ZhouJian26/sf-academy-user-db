@@ -1,5 +1,6 @@
 version: 0.2
-phases:
-  build:
-    commands:
-      - echo Push SQL Schema into S3 bucket
+
+artifacts:
+  files:
+    - "./sql/*"
+  name: "SQL Schema"
