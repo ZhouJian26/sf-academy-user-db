@@ -1,5 +1,5 @@
 version: 0.2
 phases:
-  push:
+  build:
     commands:
       - echo Push SQL Schema into S3 bucket
