@@ -4,4 +4,4 @@ artifacts:
   files:
     - "*"
   discard-paths: yes
-  base-directory: sql
+  base-directory: dump
