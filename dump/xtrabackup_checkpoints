@@ -1,5 +1,7 @@
 backup_type = full-prepared
 from_lsn = 0
-to_lsn = 28316975
-last_lsn = 28316985
-flushed_lsn = 0
+to_lsn = 12608409
+last_lsn = 12608418
+compact = 0
+recover_binlog_info = 0
+flushed_lsn = 12608418
