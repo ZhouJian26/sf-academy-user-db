@@ -1,0 +1,7 @@
+FROM mysql:8.0.20
+
+COPY sql/ mydata/
+
+RUN cat mydata/*.sql > all_files.sql
+
+CMD ["sh", "-c", "mysql -h ${address} -u ${username} --password=${password} ${name} < all_files.sql"]
